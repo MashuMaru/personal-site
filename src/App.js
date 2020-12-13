@@ -1,7 +1,8 @@
 import React from 'react';
+import Footer from './Components/Footer';
 
 function App() {
-    return <h1>does this work now?</h1>
+    return <Footer />
 }
 
 export default App;
