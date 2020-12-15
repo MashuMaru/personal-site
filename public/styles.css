@@ -1,3 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.main-section {
+    background-image: url(../src/Components/images/header-img.jpg);
+    background-attachment: fixed;
+}
