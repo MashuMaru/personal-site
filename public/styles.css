@@ -6,3 +6,8 @@ body {
     background-image: url(../src/Components/images/header-img.jpg);
     background-attachment: fixed;
 }
+
+.name {
+    color: green;
+    font-weight: bold;
+}
