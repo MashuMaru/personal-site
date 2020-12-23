@@ -1,13 +1,25 @@
 body {
     font-family: 'Roboto', sans-serif;
+    /* margin: 50px; */
+    padding: 50px;
 }
 
 .main-section {
     background-image: url(../src/Components/images/header-img.jpg);
     background-attachment: fixed;
+    text-align: left;
+    width: 50%;
 }
 
 .name {
     color: green;
     font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    font-size: 13px;
+    width: 100%;
+    /* text-align: center; */
+    bottom:0;
 }
