@@ -5,12 +5,45 @@ body {
     background-color: black;
 }
 
-.main-section {
+header {
     background-image: url(../src/Components/images/header-img.jpg);
     background-attachment: fixed;
     text-align: left;
     width: 50%;
     color: white;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.header-text {
+    padding-top: auto;
+    padding-bottom: auto;
+    
+}
+
+.find-button {
+    margin-top: 25px;
+    border: 2px solid #70af85;;
+    border-radius: 10px;
+    background-color: #70af85;;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.find-button:hover {
+    background-color: transparent;
+}
+
+.header-h1 {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.header-p {
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .name {
