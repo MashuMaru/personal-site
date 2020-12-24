@@ -1,27 +1,68 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: black;
     height: 100%;
     /* width: 100%; */
-    padding: 0 50px 50px 50px;
-    background-color: black;
+    /* padding: 0; */
+}
+
+html {
+    height: 100%;
+    display: block;
 }
 
 header {
-    background-attachment: fixed;
+    /* background-color: black;
+    background-attachment: fixed; */
     text-align: left;
     color: white;
-    /* position: relative; */
-    /* padding-top: 50%; */
-    height: 100%;
     padding: 20% 0 20% 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    /* height: 100vh; */
+    min-height: -webkit-fill-available;
+    background-size: cover;
+}
+
+
+.about-section {
+    background-color: #86aba1;
+    color: white;
+    height: 100%;
+    /* padding: 20% 0 20% 0; */
+    height: 100vh;
+    min-height: -webkit-fill-available;
+    background-size: cover;
+}
+
+.about-title {
+    text-align: center;
+    padding: 50px;
+    font-weight: 700;
+}
+
+.about-description {
+    font-weight: 100;
 }
 
 .header-img {
     position: absolute;
-    width:100%;
+    top: 0;
+    left: 0;
+    /* height: auto; */
+    display: inline;
+    width: 100%;
     z-index: -1;
-    opacity: 50%;
+    opacity: 30%;
+    background-size: cover;
 }
+@media only screen and (max-width: 600px) {
+    .header-img {
+      height: 100%;
+    }
+  }
 
 .header-text {
     padding-top: auto;
@@ -34,7 +75,7 @@ header {
     margin-top: 25px;
     border: 2px solid #70af85;;
     border-radius: 10px;
-    background-color: #70af85;;
+    background-color: transparent;;
     display: inline-block;
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
@@ -42,7 +83,32 @@ header {
 }
 
 .find-button:hover {
-    background-color: transparent;
+    background-color: #70af85;
+}
+
+.contact-button {
+    margin-top: 25px;
+    border: 2px solid #70af85;;
+    border-radius: 10px;
+    background-color: transparent;;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 25px;
+}
+
+.contact-button:hover {
+    background-color: #70af85;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow {
+    width: 20px;
 }
 
 .header-h1 {
@@ -53,6 +119,7 @@ header {
 .header-p {
     padding-top: auto;
     padding-bottom: auto;
+    font-size: 20px;
 }
 
 .name {
@@ -61,17 +128,26 @@ header {
 }
 
 footer {
+    background-color: black;
     position: relative;
     font-size: 13px;
-    width: 90%;
-    height: 2.5rem;
+    width: 100%;
+    height: 100%;
     text-align: center;
     bottom: 0;
     padding-bottom: 15px;
+    padding-top: 15px;
     color: white;
 }
 
 .emphasis {
     color: #c6ebc9;
     font-style: italic;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
 }
