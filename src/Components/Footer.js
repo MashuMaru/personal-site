@@ -4,8 +4,8 @@ var year = new Date().getFullYear();
 
 function Footer(){
     return <footer>
-    <p>© {year}. All Rights Reserved.</p>
-    <p>Website designed and developed by _ _ _ _.</p>
+    <p className='copyright'>© {year}. All Rights Reserved.</p>
+    <p className='copyright'>Website designed and developed by Mashu Maru.</p>
     </footer>
 }
 
