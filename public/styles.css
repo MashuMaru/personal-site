@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
     /* width: 100%; */
-    padding: 50px 50px 50px 50px;
+    padding: 0 50px 50px 50px;
     background-color: black;
 }
 
@@ -10,15 +10,24 @@ header {
     background-attachment: fixed;
     text-align: left;
     color: white;
+    /* position: relative; */
     /* padding-top: 50%; */
     height: 100%;
     padding: 20% 0 20% 0;
 }
 
+.header-img {
+    position: absolute;
+    width:100%;
+    z-index: -1;
+    opacity: 50%;
+}
+
 .header-text {
     padding-top: auto;
     padding-bottom: auto;
-    
+    /* position: absolute;
+    z-index: 0; */
 }
 
 .find-button {
