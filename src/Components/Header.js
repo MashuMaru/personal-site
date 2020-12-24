@@ -11,4 +11,3 @@ function Header(){
 
 export default Header;
 
-{/* <img src={require('./images/down-arrow.png')}  */}
