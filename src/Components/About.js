@@ -1,5 +1,5 @@
 import React from 'react';
-import Mashumaru from '../mashumaru.jpg'
+import Mashumaru from '../mashumaru-1.jpg'
 
 function About() {
     return <section id="about">
