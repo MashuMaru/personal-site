@@ -12,7 +12,7 @@ function Header(){
     }
 
     function mousedOut() {
-        setMousedOut(setMouseOver(false));
+        setMousedOut(setMousedOver(false));
     }
 
     function mouseOver(){
@@ -35,7 +35,7 @@ function Header(){
         {isMouseOut && null}
         </button></a>
 
-        <a href="#about">
+        <a href="#connect">
         <button onMouseEnter={mousedOver} onMouseLeave={mousedOut} className='contact-button' href="#connect">
         {isMousedOver ? <i className="far fa-envelope"></i> : 'Contact Me'}
         {isMousedOut && null}
