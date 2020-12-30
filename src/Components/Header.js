@@ -36,7 +36,7 @@ function Header(){
         </button></a>
 
         <a href="#about">
-        <button onMouseEnter={mousedOver} onMouseLeave={mousedOut} className='contact-button' href="#about">
+        <button onMouseEnter={mousedOver} onMouseLeave={mousedOut} className='contact-button' href="#connect">
         {isMousedOver ? <i className="far fa-envelope"></i> : 'Contact Me'}
         {isMousedOut && null}
         </button></a>
