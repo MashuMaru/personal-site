@@ -17,6 +17,10 @@ html {
     height: -webkit-fill-available;
 }
 
+.fa-instagram {
+    width: 50px;
+}
+
 header {
     /* background-color: black; */
     /* background-attachment: fixed; */
