@@ -5,7 +5,7 @@ var year = new Date().getFullYear();
 function Footer(){
     return <footer id="connect">
     <hr></hr>
-    <p class="connect-p">For collaborations, project work or questions, connect with me via the below links!</p>
+    <p class="connect-p">For collaborations, project work or questions, contact me via the below links!</p>
     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mycodejournal/"><i class="fab fa-instagram fa-2x icons"></i></a>
     <a target="_blank" rel="noreferrer" href="https://twitter.com/Mattmaru1"><i class="fab fa-twitter fa-2x icons"></i></a>
     <a target="_blank" rel="noreferrer" href="https://github.com/MashuMaru"><i class="fab fa-github fa-2x icons"></i></a>

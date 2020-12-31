@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HeaderImg from '../header-img1.jpg';
+import HeaderImg from '../header-img2.JPG';
 
 function Header(){
     const [isMousedOver, setMousedOver] = useState(false);
