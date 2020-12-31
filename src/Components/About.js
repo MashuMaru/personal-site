@@ -14,7 +14,7 @@ function About() {
         <p className="about-details">I started learning web development in 2019 using online courses and self-teaching in my own time. 
         Programming and coding has always been an interest of mine.</p>
         <p className="about-details">Since then, I have built websites, webapplications and even a couple of web games.
-        I love coffee (especially Starbucks Caramel Frappuccino) and music. </p>
+        I love coffee (especially Starbucks Caramel Frappuccino), hiking and music. </p>
         </div>
     </section>
 }
