@@ -24,9 +24,9 @@ function Header(){
     }
 
     return <header>
-
+<div className="header-section">
     <img className="header-img" src={HeaderImg} alt="header-img"></img>
-    <div className="header-section">
+    
         <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
         <p className='header-p'>A <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
         <a href="#about">
