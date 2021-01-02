@@ -6,14 +6,14 @@ function About() {
     return <section id="about">
     <hr></hr>
     <div className='about-section'>
-        <h1 className="title">About</h1>
+        <h1 className="title">About Me</h1>
     <div className="col about-pic-section">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
         </div>
 
 
         <div className="col about-information">
-        <h3 className="about-description">I am a self-taught website and web application developer.</h3>
+        <h3 className="description">I am a self-taught website and web application developer.</h3>
         <p className="about-details">I was a Principle Electrical Design Engineer in a Building Services Consultancy, 
         until I realised I wanted something different in my career, something more inline my interests.</p>
         <p className="about-details">I then started learning web development in 2019 using online courses and self-teaching in my own time. 

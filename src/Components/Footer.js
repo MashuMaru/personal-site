@@ -14,6 +14,8 @@ function Footer(){
     <p>Website designed and developed by Mashu Maru.</p>
     {/* <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" rel="noreferrer" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p> */}
     <p>Icons made by <a href="https://fontawesome.com/" rel="noreferrer">Font Awesome</a> from <a target="_blank" href="https://fontawesome.com/" rel="noreferrer" title="Font Awesome">www.fontawesome.com</a></p>
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
     </div>
 
 }

@@ -145,11 +145,32 @@ p {
     }
 }
 
+.skills-pic {
+    position: relative;
+    display: inline;
+    border-radius: 10%;
+    border: solid 1px #70af85;
+    padding: 10px;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .skills-pic {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        /* text-align: center; */
+
+    }
+}
+
 .about-details {
     font-size: 17px;
 }
 
-.about-description {
+.description {
     display: inline;
     font-weight: 700;
     color: #70af85;
