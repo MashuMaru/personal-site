@@ -3,7 +3,7 @@ import React from 'react';
 var year = new Date().getFullYear();
 
 function Footer(){
-    return  <div className="footer">
+    return  <div id="connect" className="footer">
     <hr></hr>
     <p class="connect-p">For collaborations, project work or questions, contact me via the below links!</p>
     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mycodejournal/"><i class="fab fa-instagram fa-2x icons"></i></a>
