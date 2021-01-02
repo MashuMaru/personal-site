@@ -9,14 +9,20 @@ function About() {
     <hr></hr>
     <div className='about-section'>
         <h1 className="about-title">About</h1>
-
+    <div className="col">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
+        </div>
         <div className="about-information">
+
+        <div className="col">
         <h3 className="about-description">I am a self-taught website and web application developer.</h3>
-        <p className="about-details">I started learning web development in 2019 using online courses and self-teaching in my own time. 
-        Programming and coding has always been an interest of mine.</p>
+        <p className="about-details">I was a Principle Electrical Design Engineer in a Building Services Consultancy, 
+        until I realised I wanted something different in my career, something more inline my interests.</p>
+        <p className="about-details">I then started learning web development in 2019 using online courses and self-teaching in my own time. 
+        Programming and coding has always been an interest of mine, so took this opportunity to push and learn.</p>
         <p className="about-details">Since then, I have built websites, webapplications and even a couple of web games.
         I love coffee (especially Starbucks Caramel Frappuccino), hiking and music. </p>
+        </div>
         </div>
         </div>
     </section>
