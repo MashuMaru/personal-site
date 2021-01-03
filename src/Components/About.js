@@ -24,8 +24,10 @@ function About() {
         and work with as many clients to bring their ideas into reality. </p>
         <h3 className="description">Current skillset:</h3>
         <p className="about-details">HTML, CSS, JavaScript, jQuery, Bootstrap, React.JS and Python.</p>
+        
         </div>
         </div>
+  
     </section>
 }
 

@@ -28,7 +28,7 @@ function Header(){
     <img className="header-img" src={HeaderImg} alt="header-img"></img>
     
         <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
-        <p className='header-p'>A <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
+        <p className='header-p'>A self-taught frontend <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
         <a href="#about">
         <button onMouseEnter={mouseOver} onMouseLeave={mouseOut} className='find-button' href="#about">
         {isMouseOver ? <i class="fas fa-angle-double-down"></i> : 'Find out more'} 
