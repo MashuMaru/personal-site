@@ -1,12 +1,14 @@
 import React from 'react';
-// import Image from '../mashumaru_site1.png'
-import PersonalSite from './PersonalSite';
+import PersonalSite from './Projects/PersonalSite';
+import NotesApp from './Projects/NotesApp';
 
 function About() {
 
     return <div>
     <hr></hr>
+    <h2 className="title">Projects</h2> 
             <PersonalSite />
+            <NotesApp />
         </div>
 
     // return <section id="about">

@@ -1,13 +1,13 @@
 import React from 'react';
-import Image from '../mashumaru_site1.png'
+import Image from '../Projects/images/mashumaru_site1.png'
 
 function PersonalSite() {
     return <section id="about">
     {/* <hr></hr> */}
     <div className='about-section'>
-        <h1 className="title">Projects</h1>
+        {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
-        <h3 className="left-description">Personal Website</h3>
+        <h3 className="left-description">Portfolio Website</h3>
         <p className="about-details">This is my portfolio website I created so you can get to know me, 
         and see the projects I have built from scratch. </p>
         <p className="about-details">In future, I may add a 'blog' page to this also, 
