@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import HeaderImg from '../header-img2.JPG';
+import AOS from 'aos';
 
 function Header(){
+    AOS.init()
     const [isMousedOver, setMousedOver] = useState(false);
     const [isMousedOut, setMousedOut] = useState(true);
     const [isMouseOver, setMouseOver] = useState(false);
@@ -26,7 +28,9 @@ function Header(){
     return <header>
 <div className="header-section">
     <img className="header-img" src={HeaderImg} alt="header-img"></img>
-    
+
+    <div  data-aos="fade-right" data-aos-duration="3000">
+
         <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
         <p className='header-p'>A self-taught frontend <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
         <a href="#about">
@@ -40,6 +44,7 @@ function Header(){
         {isMousedOver ? <i className="far fa-envelope"></i> : 'Contact Me'}
         {isMousedOut && null}
         </button></a>
+        </div>
         </div>
     </header>
 

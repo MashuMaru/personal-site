@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #393e46;
+    overflow-x: hidden; 
 }
 
 * {
@@ -129,6 +130,7 @@ p {
     /* padding-left: 5%; */
 } 
 
+
 .about-information-left {
     display: block;
     float: left;
@@ -176,7 +178,6 @@ p {
     border: solid 1px #70af85;
     padding: 5px;
     height: 300px;
-    /* max-width: 250px; */
     margin-left: 35%;
     margin-right: 25%;
 }
@@ -203,6 +204,13 @@ p {
     margin-bottom: 25px;
 
 }
+
+/* .skills-pic:hover {
+    transition: transform .25s, visibility .25s ease-in;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  } */
 
 @media only screen and (max-width: 1025px) {
     .skills-pic {

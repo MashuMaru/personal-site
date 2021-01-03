@@ -1,9 +1,10 @@
 import React from 'react';
 import PersonalSite from './Projects/PersonalSite';
 import NotesApp from './Projects/NotesApp';
+import AOS from 'aos';
 
 function About() {
-
+    AOS.init()
     return <div>
     <hr></hr>
     <h2 className="title">Projects</h2> 

@@ -1,11 +1,13 @@
 import React from 'react';
 import Mashumaru from '../Components/Projects/images/mashumaru-1.jpg'
+import AOS from 'aos';
 
 function About() {
-
-    return <section id="about">
+    AOS.init()
+    return  <section id="about">
     <hr></hr>
-    <div className='about-section'>
+    
+    <div className='about-section' data-aos="fade-right" data-aos-duration="2000">
         <h1 className="title">About Me</h1>
     <div className="col about-pic-section">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
@@ -27,8 +29,8 @@ function About() {
         
         </div>
         </div>
-  
     </section>
+
 }
 
 export default About;

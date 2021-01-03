@@ -1,9 +1,10 @@
 import React from 'react';
 import MyNotesImg from '../Projects/images/my-notes-app.png';
+import AOS from 'aos';
 
 function NotesApp() {
-
-    return <section id="about">
+    AOS.init()
+    return <section id="about" data-aos="fade-right" data-aos-duration="2000">
     {/* <hr></hr> */}
     <div className='about-section'>
         {/* <h1 className="title">Projects</h1> */}
@@ -19,6 +20,7 @@ function NotesApp() {
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>Javascript</li></p>
         <p className="about-details"><li>React.JS</li></p>
+        <p className="about-details"><i>Not yet deployed. Work in progress.</i></p>
 
 
         </div>

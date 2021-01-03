@@ -1,8 +1,10 @@
 import React from 'react';
-import Image from '../Projects/images/mashumaru_site1.png'
+import Image from '../Projects/images/mashumaru_site1.png';
+import AOS from 'aos';
 
 function PersonalSite() {
-    return <section id="about">
+    AOS.init()
+    return <section id="about" data-aos="fade-left" data-aos-duration="2000">
     {/* <hr></hr> */}
     <div className='about-section'>
         {/* <h1 className="title">Projects</h1> */}
