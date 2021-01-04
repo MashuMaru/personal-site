@@ -25,6 +25,7 @@ function About() {
         I love coffee (especially Starbucks Caramel Frappuccino), hiking and music. </p>
         <p className="about-details">My aim for the future is to work full time in Web Development and programming,
         and work with as many clients to bring their ideas into reality. </p>
+        <p className="about-details">I am continually building and learning to further enchance my skills. </p>
         <h3 className="description">Current skillset:</h3>
         <p className="about-details">HTML, CSS, JavaScript, jQuery, Bootstrap, React.JS and just started to learn Python.</p>
         </div>
