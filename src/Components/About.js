@@ -6,9 +6,10 @@ function About() {
     AOS.init()
     return  <section id="about">
     <hr></hr>
-    
-    <div className='about-section' data-aos="fade-right" data-aos-duration="1500">
+
+    <div className='section' data-aos="fade-right" data-aos-duration="2000">
         <h1 className="title">About Me</h1>
+ <div className="container-div">
     <div className="col about-pic-section">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
         </div>
@@ -26,9 +27,9 @@ function About() {
         and work with as many clients to bring their ideas into reality. </p>
         <h3 className="description">Current skillset:</h3>
         <p className="about-details">HTML, CSS, JavaScript, jQuery, Bootstrap, React.JS and Python.</p>
-        
         </div>
         </div>
+</div>
     </section>
 
 }

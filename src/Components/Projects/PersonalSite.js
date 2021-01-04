@@ -4,8 +4,9 @@ import AOS from 'aos';
 
 function PersonalSite() {
     AOS.init()
-    return <section id="about" data-aos="fade-left" data-aos-duration="2000">
+    return <section id="projects" data-aos="fade-left" data-aos-duration="2000">
     {/* <hr></hr> */}
+    <div className="container-div">
     <div className='about-section'>
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
@@ -28,6 +29,7 @@ function PersonalSite() {
         <img className="skills-pic" src={Image} alt="pic-of-me"></img>
         </div>
 
+        </div>
         </div>
     </section>
 }

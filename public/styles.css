@@ -39,6 +39,17 @@ header {
     height: 100%;
 }
 
+.section {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-div {
+    margin-top: 25px;
+    /* margin-bottom: 50px; */
+}
+
 hr {
     width: 50%;
     border: 0;
@@ -52,10 +63,26 @@ p {
 /* EDITED HERE ADDED BELOW*/
 #about {
     display: inline-block;
+
+
+    height: 100vh;
     width: 100%;
     height: 100%;
     background-color: transparent;
     min-height: 500px;
+    /* margin-bottom: 25px; */
+    /* background-color: black; */
+    color: white;
+}
+
+#projects {
+    display: inline-block;
+    /* height: 100vh; */
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    min-height: 500px;
+    /* margin-bottom: 25px; */
     /* background-color: #f3faff; */
     color: white;
 }
@@ -117,19 +144,24 @@ p {
 }
 
 .title {
+    margin-top: 50px;
     color: white;
     text-align: center;
-    padding: 25px;
+    /* padding: 25px; */
     font-weight: 700;
 }
 
 .about-information {
+    /* vertical-align: middle; */
+    /* padding-top: auto;
+    padding-bottom: auto; */
     display: block;
     float: right;
     text-align: left;
     width: 50%;
     padding-right: 20%;
     padding-bottom: 25px;
+    /* margin-bottom: 25px; */
     /* padding-left: 5%; */
 } 
 
@@ -139,8 +171,9 @@ p {
     float: left;
     text-align: left;
     width: 50%;
+    /* margin-top: 25px; */
     padding-left: 20%;
-    padding-bottom: 25px;;
+    padding-bottom: 25px;
     /* padding-left: 5%; */
 } 
 
@@ -167,7 +200,7 @@ p {
         margin-left: auto;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 20px; 
+        /* padding-top: 20px;  */
         padding-bottom: 20px;
         text-align: center;
         

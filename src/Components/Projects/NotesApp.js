@@ -4,9 +4,10 @@ import AOS from 'aos';
 
 function NotesApp() {
     AOS.init()
-    return <section id="about" data-aos="fade-right" data-aos-duration="2000">
+    return <section id="projects" data-aos="fade-right" data-aos-duration="2000">
     {/* <hr></hr> */}
-    <div className='about-section'>
+    <div className="container-div">
+    <div className='projects-section'>
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
         <h3 className="left-description">My Sticky Notes App Web Application</h3>
@@ -28,7 +29,7 @@ function NotesApp() {
         <div className="col left-pic-section">
         <img className="skills-pic" src={MyNotesImg} alt="pic-of-me"></img>
         </div>
-
+</div>
         </div>
     </section>
 }

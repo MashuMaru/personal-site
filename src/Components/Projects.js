@@ -5,12 +5,12 @@ import AOS from 'aos';
 
 function About() {
     AOS.init()
-    return <div>
+    return <projects>
     <hr></hr>
     <h2 className="title">Projects</h2> 
             <PersonalSite />
             <NotesApp />
-        </div>
+        </projects>
 
     // return <section id="about">
     // <hr></hr>
