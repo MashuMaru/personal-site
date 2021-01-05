@@ -25,14 +25,15 @@ function Header(){
         setMouseOut(setMouseOver(false));
     }
 
-    return <header>
+    return <header id="home">
 <div className="header-section">
     <img className="header-img" src={HeaderImg} alt="header-img"></img>
 
-    <div  data-aos="fade-right" data-aos-duration="3000">
+    <div  data-aos="fade-right" data-aos-duration="1000">
 
-        <h1 className='header-h1'>I am <span className='name'>Matthew Berenyi</span>, and welcome to my site.</h1>
+        <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
         <p className='header-p'>A self-taught frontend <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
+        <div data-aos="fade-right" data-aos-duration="2000">
         <a href="#about">
         <button onMouseEnter={mouseOver} onMouseLeave={mouseOut} className='find-button' href="#about">
         {isMouseOver ? <i class="fas fa-angle-double-down"></i> : 'Find out more'} 
@@ -44,6 +45,7 @@ function Header(){
         {isMousedOver ? <i className="far fa-envelope"></i> : 'Contact Me'}
         {isMousedOut && null}
         </button></a>
+        </div>
         </div>
         </div>
     </header>

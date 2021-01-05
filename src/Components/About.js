@@ -1,5 +1,5 @@
 import React from 'react';
-import Mashumaru from '../Components/Projects/images/MBe.JPG'
+import Mashumaru from '../Components/Projects/images/mashumaru-pic.JPG'
 import AOS from 'aos';
 
 function About() {
@@ -7,10 +7,10 @@ function About() {
     return  <section id="about">
     <hr></hr>
 
-    <div className='section' data-aos="fade-right" data-aos-duration="1000">
+    <div className='section' data-aos="fade-right" data-aos-duration="500">
         <h1 className="title">About Me</h1>
  <div className="container-div">
-    <div className="col about-pic-section">
+    <div className="col about-pic-section" data-aos="fade-right" data-aos-duration="1000">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
         </div>
 

@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 function NotesApp() {
     AOS.init()
-    return <section id="projects" data-aos="fade-right" data-aos-duration="1000">
+    return <section id="projects" data-aos="fade-right" data-aos-duration="500">
     {/* <hr></hr> */}
     <div className="container-div">
     <div className='projects-section'>
@@ -26,7 +26,7 @@ function NotesApp() {
 
         </div>
 
-        <div className="col left-pic-section">
+        <div className="col left-pic-section" data-aos="fade-right" data-aos-duration="1000">
         <img className="skills-pic" src={MyNotesImg} alt="pic-of-me"></img>
         </div>
 </div>
