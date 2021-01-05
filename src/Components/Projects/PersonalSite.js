@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../Projects/images/mashumaru_site1.png';
+import Image from '../Projects/images/mashumaru-site1.png';
 import AOS from 'aos';
 
 function PersonalSite() {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HeaderImg from '../header-img2.JPG';
+import HeaderImg from '../Components/Projects/images/header-img-ver2.JPG';
 import AOS from 'aos';
 
 function Header(){
@@ -29,7 +29,7 @@ function Header(){
 <div className="header-section">
     <img className="header-img" src={HeaderImg} alt="header-img"></img>
 
-    <div  data-aos="fade-right" data-aos-duration="1000">
+    <div data-aos="fade-right" data-aos-duration="1000">
 
         <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
         <p className='header-p'>A self-taught frontend <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
