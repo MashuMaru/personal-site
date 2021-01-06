@@ -16,7 +16,7 @@ function NotesApp() {
         <p className="about-details">I built this to test my knowledge and practice my skills
         in JavaScript/jQuery making the site a fully functional web application.</p> 
         <p className="about-details">It was designed and developed by me.</p> 
-        <p className="about-details">I built the website using:</p>
+        <p className="about-details">I built the web application using:</p>
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>Javascript</li></p>

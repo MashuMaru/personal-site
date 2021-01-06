@@ -12,9 +12,10 @@ function ClockTask() {
         <div className="col about-information-left">
         <h3 className="left-description">Clock and To Do List</h3>
         <p className="about-details">This project went from creating a simple clock, 
-        whilst following through with a tutorial, then it lead to this final to do list web application.</p>
-        <p className="about-details">I built this as I would actually find it useful, 
+        to me expanding on it to make a to do list web application.</p>
+        <p className="about-details">I built this as I would actually find it useful,
         and to push my JavaScript and jQuery knowledge even further.</p> 
+        <p className="about-details">I actually do use it from time to time...</p>
         <p className="about-details">I built the web application using:</p>
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
