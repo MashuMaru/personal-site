@@ -32,7 +32,7 @@ function Header(){
     <div data-aos="fade-right" data-aos-duration="1000">
 
         <h1 className='header-h1'>Hi, I am a self-taught <span className='name'>Frontend Web Developer</span>. </h1>
-        <p className='header-p'>Welcome to my <span className='emphasis'>*Portfolio</span> website.<i className="caveat"> (*Developed by yours truly).</i></p>
+        <p className='header-p'>Welcome to my <span className='emphasis'>Portfolio</span> website.<i className="caveat"> (Developed by yours truly).</i></p>
    
         <div data-aos="fade-right" data-aos-duration="2000" >
         <a href="#about">
