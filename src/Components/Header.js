@@ -31,7 +31,7 @@ function Header(){
 
     <div data-aos="fade-right" data-aos-duration="1000">
 
-        <h1 className='header-h1'>I am <span className='name'>Mashu Maru</span>, and welcome to my site.</h1>
+        <h1 className='header-h1'>I am <span className='name'>Mashumaru</span>, and welcome to my site.</h1>
         <p className='header-p'>A self-taught frontend <span className='emphasis'>website</span> and <span className='emphasis'>web application</span> developer.</p>
         <div data-aos="fade-right" data-aos-duration="2000">
         <a href="#about">
