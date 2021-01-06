@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 function NotesApp() {
     AOS.init()
-    return <section id="projects" data-aos="fade-right" data-aos-duration="500">
+    return <section id="projects" data-aos="fade-left" data-aos-duration="500">
     {/* <hr></hr> */}
     <div className="container-div">
     <div className='projects-section'>
