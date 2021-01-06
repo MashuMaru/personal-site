@@ -7,11 +7,12 @@ function About() {
     return  <section id="about">
     <hr></hr>
     <div className="about-div">
-    <div className='section' data-aos="fade-right" data-aos-duration="500">
+    {/* data-aos="fade-right" data-aos-duration="500" to below */}
+    <div className='section'>
         <h1 className="title">About Me</h1>
  <div className="container-div">
-
-    <div className="col about-pic-section" data-aos="fade-right" data-aos-duration="1000">
+ {/* data-aos="fade-right" data-aos-duration="1000" to below */}
+    <div className="col about-pic-section">
         <img className="profile-pic" src={Mashumaru} alt="pic-of-me"></img>
         </div>
 

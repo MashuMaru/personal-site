@@ -19,7 +19,8 @@ function Footer(){
     return  <div id="connect" className="footer">
     <hr></hr>
     <p class="connect-p">For collaborations, project work or questions, contact me via the below links!</p>
-    <div data-aos="zoom-in" data-aos-duration="500">
+    {/* data-aos="zoom-in" data-aos-duration="500" to below */}
+    <div>
     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mycodejournal/"><i class="fab fa-instagram fa-2x icons"></i></a>
     <a target="_blank" rel="noreferrer" href="https://twitter.com/Mattmaru1"><i class="fab fa-twitter fa-2x icons"></i></a>
     <a target="_blank" rel="noreferrer" href="https://github.com/MashuMaru"><i class="fab fa-github fa-2x icons"></i></a>
