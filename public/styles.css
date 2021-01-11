@@ -453,3 +453,18 @@ a {
 .caveat {
     font-size: 15px;
 }
+
+.port-link {
+    font-size: 15px;
+    text-decoration: underline;
+    transition: transform .25s, visibility .25s ease-in;
+    width: 250px;
+}
+
+.port-link:hover {
+    text-shadow: 0 0 10px white;
+    transition: transform .25s, visibility .25s ease-in;
+        -ms-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        transform: scale(1.1);
+}

@@ -20,7 +20,7 @@ function ClockTask() {
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>jQuery</li></p>
-        <p className="caveat"><i>Not yet deployed.</i></p>
+        <p className="port-link"><a rel="noreferrer" href="https://daily-check-list.netlify.app/" target="_blank">Click here to check it out!</a></p>
 
 
         </div>
