@@ -8,7 +8,7 @@ import AOS from 'aos';
 function About() {
     AOS.init()
     return <projects>
-    <hr></hr>
+    {/* <hr></hr> */}
     <h2 className="title">Projects</h2> 
             <PersonalSite />
             <ClockTask />

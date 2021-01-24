@@ -12,17 +12,17 @@ function ClockTask() {
         <div className="col about-information-left">
         <h3 className="left-description">Weather and Time Web App</h3>
         <p className="about-details">A simple weather and time web application.</p>
-        <p className="about-details">I built this after some inspiration from speaking with my
-        Dad about how API's work, and generally have an interest in all things backend!</p> 
-        <p className="about-details">Found it very insteresting to build as explored a number of 
-        API's and how they they retrieve data. </p>
+        <p className="about-details">Speaking with my Dad inpired me to build this. We always discuss how
+        API's work, and I generally have an interest in all things backend!</p> 
+        <p className="about-details">I found it very interesting to build as it revealed how a number of 
+        API's retrieve data.</p>
         <p className="about-details">I built the web application using:</p>
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>React.JS</li></p>
         <p className="about-details"><li>Node.JS</li></p>
         <p className="about-details"><li>Express.JS</li></p>
-        <p className="caveat"><i>Not yet deployed. Work in progress. Viewable on my <a target="_blank" rel="noreferrer" href="https://github.com/MashuMaru/Weather-App">GitHub</a>.</i></p>
+        <p className="caveat"><i>Not yet deployed. Work in progress. View here on my <a className="port-link" target="_blank" rel="noreferrer" href="https://github.com/MashuMaru/Weather-App">GitHub</a>.</i></p>
         {/* <p className="port-link"><a rel="noreferrer" href="https://daily-check-list.netlify.app/" target="_blank">Click here to check it out!</a></p> */}
 
 

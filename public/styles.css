@@ -16,6 +16,10 @@ a button {
     cursor: pointer;
 }
 
+a {
+    font-weight: 900;
+}
+
 html {
     display: block;
     padding: 0;
@@ -49,10 +53,7 @@ header {
 }
 
 .container-div {
-    /* display: block; */
-    /* margin-top: 25px; */
     margin-top: 25px;
-    /* margin-bottom: 50px; */
 }
 
 hr {
@@ -67,34 +68,30 @@ p {
 }
 /* EDITED HERE ADDED BELOW*/
 #about {
+    /* display: inline-block; */
     display: inline-block;
-    /* height: 100vh; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #222831;
+
     min-height: 500px;
-    /* margin-bottom: 25px; */
-    /* background-color: black; */
     color: white;
 }
 
 #projects {
     display: inline-block;
-    /* height: 100vh; */
     width: 100%;
     height: 100%;
     background-color: transparent;
+    /* background-color: #393e46; */
     min-height: 500px;
-    /* margin-bottom: 25px; */
-    /* background-color: #f3faff; */
     color: white;
 }
 
 .about-pic-section {
-    /* margin-top: auto;
-    margin-bottom: auto; */
-    display: block;
+    display: inline-block;
     width: 50%;
     height: 100%;
     float: left;
@@ -166,7 +163,7 @@ p {
     text-align: left;
     width: 50%;
     padding-right: 20%;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     /* margin-bottom: 25px; */
     /* padding-left: 5%; */
 } 
@@ -180,6 +177,7 @@ p {
     /* margin-top: 25px; */
     padding-left: 20%;
     padding-bottom: 25px;
+    margin-bottom: 50px;
     /* padding-left: 5%; */
 } 
 
@@ -193,7 +191,7 @@ p {
         padding-right: 10%;
         padding-top: 20px; 
         padding-bottom: 20px;
-        /* text-align: center; */
+        text-align: center;
         
     }
 }
@@ -216,13 +214,16 @@ p {
   .profile-pic {
     position: relative;
     display: inline;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border-radius: 10px;
     border: solid 1px #70af85;
     padding: 5px;
     height: 300px;
     /* max-width: 100%; */
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: auto;
+    margin-top: auto;
 }
 
 
@@ -243,14 +244,15 @@ p {
 
 .skills-pic {
     position: relative;
-    display: inline;
-    border-radius: 10%;
+    /* display: inline; */
+    border-radius: 10px;;
     border: solid 1px #70af85;
     padding: 10px;
     height: 350px;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    margin-bottom: 50px;
     transition: transform .25s, visibility .25s ease-in;
 
 }
@@ -300,7 +302,7 @@ p {
     min-width: 100%;
     height: 100vh;
     z-index: -1;
-    opacity: 50%;
+    opacity: 25%;
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgb(114, 114, 114)), to(rgba(252, 252, 252, 0)));
       mask-image: linear-gradient(to bottom, rgb(90, 90, 90), rgba(224, 224, 224, 0));
     background-attachment: fixed;
@@ -402,7 +404,7 @@ p {
 
 .connect-p {
     font-size: 17px;
-    margin-top: 55px;
+    /* margin-top: 55px; */
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -437,13 +439,16 @@ a:hover {
 }
 
 .footer {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #222831;
+
     /* position: relative; */
     font-size: 13px;
     width: 100%;
     /* height: 100%; */
     text-align: center;
     bottom: 0;
+    padding-top: 50px;
     padding-bottom: 50px;
     /* padding-top: 50px; */
     color: white;
@@ -462,7 +467,7 @@ a:hover {
     font-size: 15px;
     text-decoration: underline;
     transition: transform .25s, visibility .25s ease-in;
-    width: 250px;
+    /* width: 250px; */
 }
 
 .port-link:hover {

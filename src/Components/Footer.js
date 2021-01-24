@@ -17,7 +17,7 @@ function Footer(){
 
     AOS.init()
     return  <div id="connect" className="footer">
-    <hr></hr>
+    {/* <hr></hr> */}
     <p class="connect-p">For collaborations, project work or questions, contact me via the below links!</p>
 
     <div data-aos="zoom-in" data-aos-duration="500">
