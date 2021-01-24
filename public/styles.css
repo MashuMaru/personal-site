@@ -74,7 +74,9 @@ p {
     /* height: 100%; */
 
     /* background-color: transparent; */
-    background-color: #222831;
+    /* background-color: #222831; */
+    /* background-color: #393E46; */
+    background-color: #343940;
 
     min-height: 500px;
     color: white;
@@ -440,7 +442,9 @@ a:hover {
 
 .footer {
     /* background-color: transparent; */
-    background-color: #222831;
+    /* background-color: #222831; */
+    /* background-color: #393E46; */
+    background-color: #343940;
 
     /* position: relative; */
     font-size: 13px;
