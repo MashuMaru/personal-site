@@ -193,7 +193,7 @@ p {
         padding-right: 10%;
         padding-top: 20px; 
         padding-bottom: 20px;
-        text-align: center;
+        /* text-align: center; */
         
     }
 }
@@ -410,6 +410,10 @@ p {
 a {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .arrow {

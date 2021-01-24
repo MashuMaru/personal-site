@@ -21,7 +21,7 @@ function NotesApp() {
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>Javascript</li></p>
         <p className="about-details"><li>React.JS</li></p>
-        <p className="caveat"><i>Not yet deployed. Work in progress.</i></p>
+        <p className="caveat"><i>Not yet deployed. Work in progress. Viewable on my <a target="_blank" rel="noreferrer" href="https://github.com/MashuMaru/my-notes-appv2">GitHub</a>.</i></p>
 
 
         </div>

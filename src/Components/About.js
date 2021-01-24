@@ -23,9 +23,11 @@ function About() {
         Programming and coding has always been an interest of mine, so I decided to take the leap.</p>
         <p className="about-details">Since then, I have built websites, web applications and even a couple of web games.
         I love coffee (especially Starbucks Caramel Frappuccino), hiking, photography and music. </p>
-        <p className="about-details">My aim for the future is to work full-time in Web Development and programming,
-        and work with as many clients possible to bring their ideas into reality. </p>
-        <p className="about-details">I am constantly building new projects and learning new technologies to further enchance my skills. </p>
+        <p className="about-details">My aim is to start my new career in Web Development within a company,
+        that promotes personal and professional development with the opportunities to work on new/existing websites and web applications
+        and a place where I can look forwards to a prosperous future! </p>
+        <p className="about-details">I am constantly building new projects and learning new technologies to further enchance my skills. And lastly, 
+        I love coding! </p>
         <h3 className="description">Current skillset:</h3>
         <p className="about-details">HTML, CSS, JavaScript, jQuery, Bootstrap, React.JS and just started to learn Python.</p>
         </div>
