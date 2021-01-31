@@ -276,6 +276,12 @@ p {
     }
 }
 
+/* @media only screen and (max-width: 500px) {
+    .landing-pic {
+        max-height: 210px;
+    }
+} */
+
 .about-details {
     font-size: 17px;
 }

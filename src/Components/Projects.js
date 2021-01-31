@@ -3,6 +3,7 @@ import PersonalSite from './Projects/PersonalSite';
 import NotesApp from './Projects/NotesApp';
 import ClockTask from './Projects/ClockTask';
 import WeatherApp from './Projects/WeatherApp';
+import LandingPage from './Projects/LandingPage';
 import AOS from 'aos';
 
 function About() {
@@ -11,6 +12,7 @@ function About() {
     {/* <hr></hr> */}
     <h2 className="title">Projects</h2> 
             <PersonalSite />
+            <LandingPage />
             <ClockTask />
             <NotesApp />
             <WeatherApp />
