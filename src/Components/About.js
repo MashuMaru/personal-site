@@ -29,7 +29,7 @@ function About() {
         <p className="about-details">I am constantly building new projects and learning new technologies to further enchance my skills. After all, 
         I love coding! </p>
         <h3 className="description">Current skillset:</h3>
-        <p className="about-details">HTML, CSS, Bootstrap, Materialize, JavaScript, jQuery, React.JS and currently learning Node.JS and Python.</p>
+        <p className="about-details">HTML, CSS, Bootstrap, Materialize, JavaScript, jQuery, React.JS, Node.JS and currently learning PHP and SQL.</p>
         </div>
         </div>
         </div>
