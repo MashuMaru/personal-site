@@ -93,16 +93,21 @@ p {
 }
 
 .about-pic-section {
-    display: inline-block;
+    /* display: inline-block; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 50%;
     height: 100%;
     float: left;
-    padding-left: 10%;
+    /* padding-left: 10%; */
 }
 
 @media only screen and (max-width: 1440px) {
     .about-pic-section {
-        padding-right: 15%;
+        /* padding-right: 15%; */
     }
 }
 
@@ -214,24 +219,32 @@ p {
 }
 
   .profile-pic {
-    position: relative;
-    display: inline;
+    /* position: relative; */
+    /* display: inline; */
     /* border-radius: 10%; */
     border-radius: 10px;
     border: solid 1px #70af85;
     padding: 5px;
-    height: 300px;
+    /* height: 550px; */
+    height: 100%;
     /* max-width: 100%; */
-    margin-left: 25%;
-    margin-right: 25%;
+    display: flex;
+    height: 400px;
+    /* height: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: auto;
-    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
 @media only screen and (max-width: 1600px) {
     .profile-pic {
-        height: 250px;
+        height: 350px;
     }
 }
 
