@@ -94,19 +94,22 @@ p {
 
 .about-pic-section {
     /* display: inline-block; */
-    display: block;
+    /* display: block; */
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     width: 50%;
-    height: 100%;
+
     float: left;
-    /* padding-left: 10%; */
+    padding-left: 10%;
 }
 
 @media only screen and (max-width: 1440px) {
     .about-pic-section {
+        /* padding-left: auto; */
+        padding-left: 5%;
         /* padding-right: 15%; */
     }
 }
@@ -169,7 +172,8 @@ p {
     float: right;
     text-align: left;
     width: 50%;
-    padding-right: 20%;
+    padding-right: 10%;
+    padding-left: 5%;
     padding-bottom: 50px;
     /* margin-bottom: 25px; */
     /* padding-left: 5%; */
@@ -222,11 +226,12 @@ p {
     /* position: relative; */
     /* display: inline; */
     /* border-radius: 10%; */
+    display: block;
     border-radius: 10px;
     border: solid 1px #70af85;
     padding: 5px;
     /* height: 550px; */
-    height: 100%;
+    /* height: 100%; */
     /* max-width: 100%; */
     display: flex;
     height: 400px;
@@ -244,7 +249,7 @@ p {
 
 @media only screen and (max-width: 1600px) {
     .profile-pic {
-        height: 350px;
+        height: 380px;
     }
 }
 
