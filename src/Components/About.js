@@ -29,7 +29,7 @@ function About() {
         I love coding! </p>
         <p className="about-details">I also love coffee (especially Starbucks Caramel Frappuccino), hiking, photography and making music.</p>
         <h3 className="description">Current skillset:</h3>
-        <p className="about-details">HTML, CSS, Bootstrap, Materialize, JavaScript, jQuery, React.JS, Node.JS and currently learning PHP and SQL.</p>
+        <p className="about-details">HTML, CSS, Bootstrap, Materialize, JavaScript, jQuery, React.JS, Vue.JS Node.JS and currently learning C# and .NET.</p>
         </div>
         </div>
         </div>
