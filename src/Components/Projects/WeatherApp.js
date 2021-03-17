@@ -25,7 +25,7 @@ function ClockTask() {
         <img class="tech-logo" src={NodejsImg} alt="node-express-img"></img>
         <p className="about-details">A simple weather and time web application.</p>
         <p className="about-details">Speaking with my Dad inpired me to build this. We always discuss how
-        API's work, and I generally have an interest in all things backend!</p> 
+        API's work, and I generally have an interest in backend development!</p> 
         <p className="about-details">I found it very interesting to build as it revealed how a number of 
         API's retrieve data.</p>
         <p className="about-details">I built the web application using:</p>

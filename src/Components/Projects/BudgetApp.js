@@ -26,6 +26,7 @@ function BudgetApp() {
         <p className="about-details">I built the web application using:</p>
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
+        <p className="about-details"><li>JavaScript</li></p>
         <p className="about-details"><li>Vue.js</li></p>
         <p className="port-link"><a rel="noreferrer" href="https://mashu-budget-app.netlify.app/" target="_blank">Click here to check it out!</a></p>
 
