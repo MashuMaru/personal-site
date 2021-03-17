@@ -1,5 +1,9 @@
 import React from 'react';
 import Image from '../Projects/images/mashumaru-site1.png';
+import ReactImg from '../Projects/images/Logos/react.png';
+import HTMLImg from '../Projects/images/Logos/html.png';
+import CSSImg from '../Projects/images/Logos/css.png';
+import JavaScriptImg from '../Projects/images/Logos/javascript.png';
 import AOS from 'aos';
 
 function PersonalSite() {
@@ -11,6 +15,10 @@ function PersonalSite() {
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
         <h3 className="left-description">Portfolio Website</h3>
+        <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
+        <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+        <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
+        <img class="tech-logo" src={ReactImg} alt="react-img"></img>
         <p className="about-details">This is my portfolio website I created so you can get to know me, 
         and see the projects I have built from scratch. </p>
         <p className="about-details">In future, I may add a 'blog' page to this also, 

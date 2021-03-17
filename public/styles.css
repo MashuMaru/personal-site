@@ -49,6 +49,7 @@ header {
     position: relative;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 100%;
 }
 
 .container-div {
@@ -115,6 +116,7 @@ p {
     display: block;
     width: 50%;
     height: 100%;
+    padding-top: 30px;
     float: right;
     padding-right: 10%;
 }
@@ -132,6 +134,7 @@ p {
         float: none;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 0;
     }
 }
 
@@ -269,7 +272,7 @@ p {
 
 
 .left-description {
-    display: inline;
+    /* display: inline; */
     font-weight: 700;
     color: #70af85;
     width: 100%;
@@ -449,4 +452,12 @@ a:hover {
         -ms-transform: scale(1.1); 
         -webkit-transform: scale(1.1); 
         transform: scale(1.1);
+}
+
+.tech-logo {
+    width: 50px;
+    display: inline-flexbox;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
 }

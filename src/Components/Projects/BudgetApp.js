@@ -1,6 +1,10 @@
 import React from 'react';
 import BudgetAppImg from '../Projects/images/BudgetAppImg.png';
 import AOS from 'aos';
+import HTMLImg from '../Projects/images/Logos/html.png';
+import CSSImg from '../Projects/images/Logos/css.png';
+import JavaScriptImg from '../Projects/images/Logos/javascript.png';
+import VueImg from '../Projects/images/Logos/vue.png';
 
 function BudgetApp() {
     AOS.init()
@@ -11,6 +15,10 @@ function BudgetApp() {
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
         <h3 className="left-description">Budget App</h3>
+        <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
+        <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+        <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
+        <img class="tech-logo" src={VueImg} alt="vue-img"></img>
         <p className="about-details">A simple web application built for managing your financial budgets, expenditures.</p>
         <p className="about-details">I built this, well, because I cancelled my subscription for Excel, so decided to build
         a budget application my self.</p> 

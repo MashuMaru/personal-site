@@ -1,6 +1,12 @@
 import React from 'react';
 import WeatherApp from '../Projects/images/weather_app.jpeg';
 import AOS from 'aos';
+import ReactImg from '../Projects/images/Logos/react.png';
+import HTMLImg from '../Projects/images/Logos/html.png';
+import CSSImg from '../Projects/images/Logos/css.png';
+import JavaScriptImg from '../Projects/images/Logos/javascript.png';
+import NodeImg from '../Projects/images/Logos/node.png';
+import NodejsImg from '../Projects/images/Logos/nodejs.png';
 
 function ClockTask() {
     AOS.init()
@@ -11,6 +17,12 @@ function ClockTask() {
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
         <h3 className="left-description">Weather and Time Web App</h3>
+        <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
+        <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+        <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
+        <img class="tech-logo" src={ReactImg} alt="react-img"></img>
+        <img class="tech-logo" src={NodeImg} alt="node-img"></img>
+        <img class="tech-logo" src={NodejsImg} alt="node-express-img"></img>
         <p className="about-details">A simple weather and time web application.</p>
         <p className="about-details">Speaking with my Dad inpired me to build this. We always discuss how
         API's work, and I generally have an interest in all things backend!</p> 

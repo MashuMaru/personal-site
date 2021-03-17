@@ -1,6 +1,9 @@
 import React from 'react';
 import ClockTaskImg from '../Projects/images/ClockTasks-img.png';
 import AOS from 'aos';
+import HTMLImg from '../Projects/images/Logos/html.png';
+import CSSImg from '../Projects/images/Logos/css.png';
+import JavaScriptImg from '../Projects/images/Logos/javascript.png';
 
 function ClockTask() {
     AOS.init()
@@ -11,6 +14,9 @@ function ClockTask() {
         {/* <h1 className="title">Projects</h1> */}
         <div className="col about-information-left">
         <h3 className="left-description">Clock and To Do List</h3>
+        <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
+        <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+        <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
         <p className="about-details">This project went from creating a simple clock, 
         to me expanding on it to make a to do list web application.</p>
         <p className="about-details">I built this as I would actually find it useful,

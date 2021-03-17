@@ -1,6 +1,10 @@
 import React from 'react';
 import MyNotesImg from '../Projects/images/my-notes-app.png';
 import AOS from 'aos';
+import ReactImg from '../Projects/images/Logos/react.png';
+import HTMLImg from '../Projects/images/Logos/html.png';
+import CSSImg from '../Projects/images/Logos/css.png';
+import JavaScriptImg from '../Projects/images/Logos/javascript.png';
 
 function NotesApp() {
     AOS.init()
@@ -10,6 +14,10 @@ function NotesApp() {
             <div className='projects-section'>
                 <div className="col about-information-left">
                     <h3 className="left-description">My Sticky Notes App Web Application</h3>
+                    <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
+                    <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+                    <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
+                    <img class="tech-logo" src={ReactImg} alt="react-img"></img>
                     <p className="about-details">This is a web application I built to keep notes, 
                     add and delete as required. </p>
                     <p className="about-details">I built this to using React.JS to push my understanding and ability to work with the JavaScript library.</p> 
