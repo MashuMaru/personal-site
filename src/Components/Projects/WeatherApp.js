@@ -7,6 +7,7 @@ import CSSImg from '../Projects/images/Logos/css.png';
 import JavaScriptImg from '../Projects/images/Logos/javascript.png';
 import NodeImg from '../Projects/images/Logos/node.png';
 import NodejsImg from '../Projects/images/Logos/nodejs.png';
+import Bootstrap from '../Projects/images/Logos/bootstrap.png';
 
 function ClockTask() {
     AOS.init()
@@ -19,6 +20,7 @@ function ClockTask() {
         <h3 className="left-description">Weather and Time Web App</h3>
         <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
         <img class="tech-logo" src={CSSImg} alt="css-img"></img>
+        <img class="tech-logo" src={Bootstrap} alt="bootstrap"></img>
         <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
         <img class="tech-logo" src={ReactImg} alt="react-img"></img>
         <img class="tech-logo" src={NodeImg} alt="node-img"></img>
@@ -31,6 +33,7 @@ function ClockTask() {
         <p className="about-details">I built the web application using:</p>
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
+        <p className="about-details"><li>Bootstrap</li></p>
         <p className="about-details"><li>React.JS</li></p>
         <p className="about-details"><li>Node.JS</li></p>
         <p className="about-details"><li>Express.JS</li></p>
