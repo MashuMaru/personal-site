@@ -26,7 +26,7 @@ function NotesApp() {
                     <p className="about-details"><li>HTML</li></p>
                     <p className="about-details"><li>CSS</li></p>
                     <p className="about-details"><li>Javascript</li></p>
-                    <p className="about-details"><li>React.JS</li></p>
+                    <p className="about-details"><li>React.js</li></p>
                     <p className="port-link"><a rel="noreferrer" href="https://my-sticky-notes-app.netlify.app/" target="_blank">Click here to check it out!</a></p> 
                 </div>
                 <div className="col left-pic-section" data-aos="fade-right" data-aos-duration="1000">

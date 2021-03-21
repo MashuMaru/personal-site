@@ -34,9 +34,9 @@ function ClockTask() {
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>Bootstrap</li></p>
-        <p className="about-details"><li>React.JS</li></p>
-        <p className="about-details"><li>Node.JS</li></p>
-        <p className="about-details"><li>Express.JS</li></p>
+        <p className="about-details"><li>React.js</li></p>
+        <p className="about-details"><li>Node.js</li></p>
+        <p className="about-details"><li>Express.js</li></p>
         <p className="caveat"><i>Not yet deployed. Work in progress. View here on my <a className="port-link" target="_blank" rel="noreferrer" href="https://github.com/MashuMaru/Weather-App">GitHub</a>.</i></p>
         {/* <p className="port-link"><a rel="noreferrer" href="https://daily-check-list.netlify.app/" target="_blank">Click here to check it out!</a></p> */}
 

@@ -28,7 +28,7 @@ function PersonalSite() {
         <p className="about-details"><li>HTML</li></p>
         <p className="about-details"><li>CSS</li></p>
         <p className="about-details"><li>Javascript</li></p>
-        <p className="about-details"><li>React.JS</li></p>
+        <p className="about-details"><li>React.js</li></p>
 
 
         </div>

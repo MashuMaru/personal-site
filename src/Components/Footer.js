@@ -32,7 +32,7 @@ function Footer(){
         {isMousedOut && null}
         </button></a>
     <p>© {year}. All Rights Reserved.</p>
-    <p>Website designed and developed by Matthew Berenyi.</p>
+    <p>Website designed and developed by Matt Berenyi.</p>
     {/* <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" rel="noreferrer" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p> */}
     <p>Icons made by <a href="https://fontawesome.com/" rel="noreferrer">Font Awesome</a> from <a target="_blank" href="https://fontawesome.com/" rel="noreferrer" title="Font Awesome">www.fontawesome.com</a></p>
     <p>Tech logos made by <a href="https://icons8.com/" rel="noreferrer">Icon 8</a> from <a target="_blank" href="https://icons8.com/" rel="noreferrer" title="Icon 8">www.icons8.com</a></p>

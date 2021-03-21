@@ -4,6 +4,7 @@ import AOS from 'aos';
 import HTMLImg from '../Projects/images/Logos/html.png';
 import CSSImg from '../Projects/images/Logos/css.png';
 import JavaScriptImg from '../Projects/images/Logos/javascript.png';
+import JqueryImg from '../Projects/images/Logos/jquery.png';
 
 function ClockTask() {
     AOS.init()
@@ -17,6 +18,7 @@ function ClockTask() {
         <img class="tech-logo" src={HTMLImg} alt="html-img"></img>
         <img class="tech-logo" src={CSSImg} alt="css-img"></img>
         <img class="tech-logo" src={JavaScriptImg} alt="js-img"></img>
+        <img class="tech-logo" src={JqueryImg} alt="js-img"></img>
         <p className="about-details">This project went from creating a simple clock, 
         to me expanding on it to make a to do list web application.</p>
         <p className="about-details">I built this as I would actually find it useful,

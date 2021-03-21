@@ -91,9 +91,11 @@ p {
     margin-top: auto;
     margin-bottom: auto;
     width: 50%;
-
+    /* new height 210321 */
+    /* height: 80vh; */
     float: left;
     padding-left: 10%;
+    padding-right: 5%;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -157,6 +159,7 @@ p {
 }
 
 
+
 .about-information-left {
     display: block;
     float: left;
@@ -202,7 +205,7 @@ p {
     border: solid 1px #70af85;
     padding: 5px;
     display: flex;
-    height: 400px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -273,7 +276,7 @@ p {
     display: inline;
     font-weight: 700;
     color: #70af85;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -293,7 +296,8 @@ p {
     min-width: 100%;
     height: 100vh;
     z-index: -1;
-    opacity: 25%;
+    /* opacity: 25%; */
+    opacity: 35%;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 114, 114)), to(rgba(252, 252, 252, 0)));
     mask-image: linear-gradient(to bottom, rgb(90, 90, 90), rgba(224, 224, 224, 0));
     background-attachment: fixed;
